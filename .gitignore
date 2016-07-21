@@ -1,0 +1,97 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+#Ipython Notebook
+.ipynb_checkpoints
+
+# Python
+*.pyc
+# Configs
+**.cnf
+!**build.cnf
+!**push.cnf
+!**defaults.cnf
+# Logs
+**.log
+# Nohups and outs
+nohup.out
+out
+# Lock files
+**.lck
+# Docs
+docs/_build
+# Artifacts
+artifacts/*
+# Resources
+*resources/*
+!*resources/README.md
+!*shutit_resources/README.md
+# Keys
+**.gpg
+**.gpg~
+# Show Config
+show_config/*
+build/*
+dist/*
+shutit.egg*
+.eric6*
+shutit.e4p
+#bak
+*bak
