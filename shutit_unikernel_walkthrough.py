@@ -56,7 +56,7 @@ end''')
 		if o != 'The OCaml toplevel, version 4.02.3':
 			shutit.send('opam switch 4.02.3',note='Switch to version 4.02.3+')
 		shutit.send('eval `opam config env`',note='Set up environment for opam')
-		shutit.multisend('opam install mirage',{'Do you want to continue?':'Y'},note='Install mirage. Mirage creates the binaries/OSes that run the unikernels.\nHere we will create a binary and then a Xen unikernel, which we run with the xml command')
+		shutit.multisend('opam install mirage',{'Do you want to continue?':'Y'},note='Install mirage. Mirage creates the binaries/OSes that run the unikernels.\nHere we will create a binary and then a Xen unikernel, which we run with the xl command')
 		if not shutit.file_exists('mirage-skeleton',directory=True):
 			shutit.send('git clone git://github.com/mirage/mirage-skeleton.git && cd mirage-skeleton',note='Check out the hello world code')
 		else:
